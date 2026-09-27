@@ -239,5 +239,77 @@ git clone https://github.com/mohammadyousuf-63/Loan_Approval_Prediction_System.g
 ### 2. Navigate to the project directory
 
 ```bash
-cd Loan_Approval_Prediction_Syst_
+cd Loan_Approval_Prediction_System
 ```
+
+### 3. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### 4. Activate the virtual environment
+
+**Windows:**
+
+```bash
+.venv\Scripts\activate
+```
+
+### 5. Install the required packages
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+## Streamlit Application
+
+The deployed application provides an interactive interface where users can enter applicant details and receive a loan approval prediction.
+
+The dashboard also provides statistical analysis, feature importance, risk analysis, and business insights based on the dataset.
+
+## Project Workflow
+
+```text
+Dataset
+   ↓
+Data Cleaning
+   ↓
+Data Preprocessing
+   ↓
+Exploratory Data Analysis
+   ↓
+Feature Encoding & Scaling
+   ↓
+Train-Test Split
+   ↓
+Model Training
+   ↓
+Model Evaluation
+   ↓
+Random Forest Model
+   ↓
+Streamlit Prediction Interface
+   ↓
+Dashboard & Insights
+```
+
+## Conclusion
+
+The Loan Approval Prediction System demonstrates a complete machine learning workflow for a classification problem. It covers data preprocessing, exploratory analysis, classification model development, evaluation, prediction, and dashboard-based analysis.
+
+The Streamlit application provides an interactive way to enter applicant information, obtain a loan approval prediction, and explore loan approval patterns and insights from the dataset.
+
+## Author
+
+**Mohammad Yousuf**
+
+GitHub: https://github.com/mohammadyousuf-63
